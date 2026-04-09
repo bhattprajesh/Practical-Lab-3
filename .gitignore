@@ -1,0 +1,60 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# .gitignore — Dogs vs Cats Fine-Tuning Lab
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Dataset & raw images (too large for Git — download via notebook) ──────────
+kagglecatsanddogs_5340.zip
+PetImages/
+cats_and_dogs_5k/
+
+# ── Saved model checkpoints ───────────────────────────────────────────────────
+*.keras
+*.h5
+*.pb
+saved_model/
+
+# ── Generated plot images ─────────────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Jupyter Notebook checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs & profiling ──────────────────────────────────────────────────────────
+logs/
+*.log
+*.tsv
+tensorboard_logs/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+.env
+.env.local
